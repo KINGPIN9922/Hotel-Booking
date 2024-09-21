@@ -15,7 +15,7 @@
           <div class="col-md-12 ftco-animate">
           	<h2 class="subheading" style="font-size: 63px; margin-bottom: 55px;">Pay Page for your Room</h2>
                     <!-- Replace "test" with your own sandbox Business account app client ID -->
-                            <script src="https://www.paypal.com/sdk/js?client-id=ARanlzt_AR5pnteQ0RTjDrbjsVinaRlR4ifp-DQ4Yog3CdLytyAGPw8ytrf5w4KFvYggmyIIU-j5GdnZ&currency=USD"></script>
+                            <script src="https://www.paypal.com/sdk/js?client-id=AW7KFVvz6KaGDN2yUUMStqoGf37VEBimEKIDeZ4ft-9ZxayCSBkkT5diUS7kRdd5Td37sHcs3YvTnwfH&currency=USD"></script>
                             <!-- Set up a container element for the button -->
                             <div id="paypal-button-container"></div>
                             <script>
