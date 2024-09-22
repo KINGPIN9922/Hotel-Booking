@@ -9,9 +9,7 @@
 
 
     if(isset($_POST['submit'])) {
-      // if(empty($_POST['status'])) {
-      //   echo "<script>alert('one ore more input are empty')</script>";
-      // } else {
+     
 
         $status = $_POST['status'];
 
@@ -23,7 +21,7 @@
         header("location: show-rooms.php");
 
 
-      //}
+      
     }
 
    
