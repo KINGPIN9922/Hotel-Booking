@@ -62,6 +62,7 @@
           </div>
         </div>
 				<div class="row no-gutters">
+				<?php $count=0 ?>
 				<?php foreach($allRooms as $room) : ?>	
 					<div class="col-lg-6">
 						<div class="room-wrap d-md-flex">
@@ -82,6 +83,11 @@
 							</div>
 						</div>
 					</div>
+					<?php $count++ ?>
+					<?php if($count==4){
+							break;
+					}
+					?>
 				<?php endforeach; ?>
     			
     		</div>
